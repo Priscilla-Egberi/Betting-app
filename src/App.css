@@ -15,9 +15,20 @@
 .bgWarning{
   background-color: rgba(214, 220, 179, 0.413);
 }
-.col1{
-
+.col1:hover{
+ margin-top: -10px;
+ transition: width 5s;
 }
 .bgCard{
   background-color: #93B482!important;
+}
+.lock{
+  position:absolute;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:radial-gradient(at 30% 30%,#0000,#000a) #f1ebebfb;
+  left:80px;
+  top:40px;
+  animation: x 0.3s cubic-bezier(0,0,1,0) infinite;
 }
