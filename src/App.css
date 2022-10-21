@@ -12,3 +12,12 @@
 .part1{
   height:100%;
 }
+.bgWarning{
+  background-color: rgba(214, 220, 179, 0.413);
+}
+.col1{
+
+}
+.bgCard{
+  background-color: #93B482!important;
+}
