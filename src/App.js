@@ -1,5 +1,5 @@
 import './App.css';
-import {Container, Nav, Navbar, NavDropdown, Row, Col, Card} from 'react-bootstrap';
+import {Container, Nav, Navbar, NavDropdown, Row, Col} from 'react-bootstrap';
 import herovideo from "./images/hero.mp4"
 import part1 from "./images/part1.jpg"
 
@@ -38,10 +38,11 @@ function App() {
     </div>
     <Container className="mt-5">
     <Row>
-      <Col>
-      <div className="text-end">
-                    <p className='h4'> מסיבט - בטים / קזינו / רולטה / הימורי לייב
+    <p className='h4 text-center'> מסיבט - בטים / קזינו / רולטה / הימורי לייב
                 </p>
+      <Col>
+      <div className="text-end card">
+                    
                 <p className='text-small'>
                 הצטרפו לבוט גזע החדש  - בוט גזע </p>
                 <p>
@@ -54,7 +55,10 @@ function App() {
                 העברת בנקאית 💰<br/>
                 קוד משיכה 💰<br/>
                 מזומן לשליח 🚖</p>
-
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">
                 <p>
                 בונוס הפקדה ראשוני עד 40% 
                 לשחקנים וותיקים בונוס תמידי </p>
@@ -72,7 +76,12 @@ function App() {
                 ✅👑יחסים גבוהים
                 </p><p>
                 ✅☄️הפקדות ומשיכות מהירות💸
-                </p><p>
+                </p>
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">
+                <p>
                 ❇️טלגרם: @messi10bet
                 </p><p>
                 📱ווצאפ: 054-8326815
@@ -93,7 +102,7 @@ function App() {
     <img src={part1} width="100%" height="100%" alt="" />
       </Col>
   <Col>
-                <div className="text-end">
+                <div className="text-end card">
                 <p> ברוכים הבאים למסיבט ⚽️</p>
                 <p>
                 המקום המושלם למהמרים ♦️</p>
@@ -115,7 +124,7 @@ function App() {
     </Row>
     <Row className="mt-5">
       <Col>
-      <div className="text-end">
+      <div className="text-end card">
                 <p>
                 להלן התקנון של מסיבט : 
                 </p>
@@ -132,6 +141,10 @@ function App() {
                 ‌‎אלא אם כן תואם אחרת מול הסוכן הישיר!
                 ( 24 שעות מרגע ההפקדה )
                 </p>
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">
                 <p>
                 ‌‎תשלומים יבוצעו באותה דרך הפקדה (ניתן לשינוי)
                 ‌‎עד 24 שעות מרגע המשיכה.
@@ -147,7 +160,11 @@ function App() {
                 </p>                                                        
                         <p>
                 ‌‎500 ₪ בונוס 125 ( 5 הימורים חובה )
-                </p>       
+                </p> 
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">      
                 <p>                                             
                 ‌‎1,000 ₪ בונוס 250 ( 5 הימורים חובה )
                 </p>  
@@ -163,6 +180,10 @@ function App() {
                 <p> 
                 ‌‎5,000 ₪ בונוס 1500 (15 הימורים חובה )
                 </p>  
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">
                 <p> 
 
                 ‌‎מינימום  הפקדה בכל האתרים והאפליקציות:
@@ -186,6 +207,12 @@ function App() {
                 <br/>
                 ‌‎▪️משולב יכול להרוויח מקסימום 10,000 נקודות (אין כפל במשולבים)
                 <br/>
+                </p>
+                </div>
+                </Col>
+      <Col>
+      <div className="text-end card">
+        <p>
                 ‌‎▪️טניס עד 2000 נקודות רווח למשחק .
                 <br/>
                 ‌‎▪️פוטבול ובייסבול עד 2000 נקודות להרוויח למשחק 
