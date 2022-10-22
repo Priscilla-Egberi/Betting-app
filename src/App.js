@@ -28,7 +28,7 @@ function App() {
         </div>
       </div>
       <Container fluid className="py-5 bgWarning">
-        <marquee className="text-center" width="60%" direction="right" height="100px">
+        <marquee className="text-center" width="80%" direction="left" height="100px">
           <p className='h4 text-center mt-5'>
             מסיבט - בטים / קזינו / רולטה / הימורי לייב
           </p>
@@ -251,12 +251,12 @@ function App() {
       <Container fluid className='bg-dark py-5 text-center' style={{ height: "18rem" }}>
         <Button href="https://t.me/Messibetbot" variant="success" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br />
         <div className='row'>
-          <div className="col-6">
+          <div className="col-md-6 col-12 ml-5">
             <marquee width="40%" direction="down" height="100px">
               <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
             </marquee>
           </div>
-          <div className="col-6">
+          <div className="col-md-6 col-12 d-none d-md-block mr-5">
             <marquee width="10%" direction="up" height="100px">
               <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
             </marquee>
