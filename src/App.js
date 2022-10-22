@@ -251,7 +251,7 @@ function App() {
       </Container>
       <Container fluid className='bg-dark py-5 text-center' style={{ height: "18rem" }}>
         <Button href="" variant="light" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br/>
-        <marquee width="60%" direction="down" height="100px">
+        <marquee width="40%" direction="down" height="100px">
         <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
         </marquee>
       </Container>
