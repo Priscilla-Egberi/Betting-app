@@ -10,21 +10,21 @@ function App() {
   return (
     <div>
       <div className="hero">
-        <video src={herovideo} width="100%" height="100%" autoPlay loop muted style={{ objectFit: "cover", objectPosition: "top" }}>       
+        <video src={herovideo} width="100%" height="100%" autoPlay loop muted style={{ objectFit: "cover", objectPosition: "top" }}>
         </video>
         <div className="bgContent">
           <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand href="#home">מסיבט - בטים</Navbar.Brand>
-              
-              
-        <Button href="" variant="light" size="lg">   למד עוד</Button>
+
+
+              <Button href="" variant="success" size="lg">   למד עוד</Button>
             </Container>
           </Navbar>
-        <div className="text-center" style={{marginTop:"70vh"}}>
-        <p className="h2 text-light" style={{backgroundColor: "rgb(0, 0, 0, 0.7)", width:"max-content", display:"inline-block"}}>הכל יש בבוט שלנו</p>
-        <div><Button href="" variant="light" size="lg">   לחצו כאן</Button></div>
-        </div>
+          <div className="text-center" style={{ marginTop: "70vh" }}>
+            <p className="h2 text-light" style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", width: "max-content", display: "inline-block" }}>הכל יש בבוט שלנו</p>
+            <div><Button href="" variant="light" size="lg">   לחצו כאן</Button></div>
+          </div>
         </div>
       </div>
       <Container fluid className="py-5 bgWarning">
@@ -89,7 +89,7 @@ function App() {
                   ⭐️לערוץ המלצות שלנו⭐️<br />
                   ⭐️לערוץ צפיה ישירה במשחקים⭐️
                 </p>
-                <p><a href="">לחצו כאן</a> הכל יש בבוט שלנו 
+                <p><a href="">לחצו כאן</a> הכל יש בבוט שלנו
 
                 </p>
               </div>
@@ -129,7 +129,7 @@ function App() {
       </Container>
       <Container fluid className='bg-light py-5'>
         <div className="row gap-2 mt-5 justify-content-center">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 להלן התקנון של מסיבט :
@@ -149,7 +149,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 ‌‎תשלומים יבוצעו באותה דרך הפקדה (ניתן לשינוי)
@@ -169,7 +169,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-sm-6 col-md-3">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 ‌‎1,000 ₪ בונוס 250 ( 5 הימורים חובה )
@@ -190,7 +190,7 @@ function App() {
           </div>
         </div>
         <div className='row mt-3 mx-auto gap-2 justify-content-center'>
-          <div className="col-12 col-md-5">
+          <div className="col-12 col-sm-6 col-md-5">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "25rem" }}>
               <p>
 
@@ -218,7 +218,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-md-5">
+          <div className="col-12 col-sm-6 col-md-5">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "25rem" }}>
               <p>
                 ‌‎▪️טניס עד 2000 נקודות רווח למשחק .
@@ -246,13 +246,22 @@ function App() {
               </p>
             </div>
           </div>
-          </div>
+        </div>
       </Container>
       <Container fluid className='bg-dark py-5 text-center' style={{ height: "18rem" }}>
-        <Button href="" variant="light" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br/>
-        <marquee width="40%" direction="down" height="100px">
-        <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
-        </marquee>
+        <Button href="" variant="success" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br />
+        <div className='row'>
+          <div className="col-6">
+            <marquee width="40%" direction="down" height="100px">
+              <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
+            </marquee>
+          </div>
+          <div className="col-6">
+            <marquee width="10%" direction="up" height="100px">
+              <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
+            </marquee>
+          </div>
+        </div>
       </Container>
     </div>
   );
