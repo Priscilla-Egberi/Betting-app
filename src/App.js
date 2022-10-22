@@ -16,27 +16,15 @@ function App() {
           <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand href="#home">מסיבט - בטים</Navbar.Brand>
-<<<<<<< HEAD
-              
-              
-        <Button href="https://t.me/Messibetbot" variant="light" size="lg">   למד עוד</Button>
-            </Container>
-          </Navbar>
-        <div className="text-center" style={{marginTop:"60vh"}}>
-        <p className="h2 text-light" style={{backgroundColor: "rgb(0, 0, 0, 0.7)", width:"max-content", display:"inline-block"}}>הכל יש בבוט שלנו</p>
-        <div><Button href="https://t.me/Messibetbot" variant="light" size="lg">   לחצו כאן</Button></div>
-        </div>
-=======
 
 
-              <Button href="" variant="success" size="lg">   למד עוד</Button>
+              <Button href="https://t.me/Messibetbot" variant="success" size="lg">   למד עוד</Button>
             </Container>
           </Navbar>
-          <div className="text-center" style={{ marginTop: "70vh" }}>
+          <div className="text-center" style={{ marginTop: "60vh" }}>
             <p className="h2 text-light" style={{ backgroundColor: "rgb(0, 0, 0, 0.7)", width: "max-content", display: "inline-block" }}>הכל יש בבוט שלנו</p>
-            <div><Button href="" variant="light" size="lg">   לחצו כאן</Button></div>
+            <div><Button href="https://t.me/Messibetbot" variant="light" size="lg">   לחצו כאן</Button></div>
           </div>
->>>>>>> 5a47225dcb289c841063399ad1f595f8dcdba4d4
         </div>
       </div>
       <Container fluid className="py-5 bgWarning">
@@ -101,11 +89,7 @@ function App() {
                   ⭐️לערוץ המלצות שלנו⭐️<br />
                   ⭐️לערוץ צפיה ישירה במשחקים⭐️
                 </p>
-<<<<<<< HEAD
                 <p><a href="https://t.me/Messibetbot">לחצו כאן</a> הכל יש בבוט שלנו 
-=======
-                <p><a href="">לחצו כאן</a> הכל יש בבוט שלנו
->>>>>>> 5a47225dcb289c841063399ad1f595f8dcdba4d4
 
                 </p>
               </div>
@@ -265,13 +249,7 @@ function App() {
         </div>
       </Container>
       <Container fluid className='bg-dark py-5 text-center' style={{ height: "18rem" }}>
-<<<<<<< HEAD
-        <Button href="https://t.me/Messibetbot" variant="light" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br/>
-        <marquee width="60%" direction="down" height="100px">
-        <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
-        </marquee>
-=======
-        <Button href="" variant="success" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br />
+        <Button href="https://t.me/Messibetbot" variant="success" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br />
         <div className='row'>
           <div className="col-6">
             <marquee width="40%" direction="down" height="100px">
@@ -284,7 +262,6 @@ function App() {
             </marquee>
           </div>
         </div>
->>>>>>> 5a47225dcb289c841063399ad1f595f8dcdba4d4
       </Container>
     </div>
   );
