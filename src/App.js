@@ -18,7 +18,7 @@ function App() {
               <Navbar.Brand href="#home">מסיבט - בטים</Navbar.Brand>
               
               
-        <Button href="" variant="light" size="lg">   לחצו כאן</Button>
+        <Button href="" variant="light" size="lg">   למד עוד</Button>
             </Container>
           </Navbar>
         <div className="text-center" style={{marginTop:"70vh"}}>
