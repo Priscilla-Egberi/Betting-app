@@ -1,5 +1,5 @@
 import './App.css';
-import { Container, Nav, Navbar, NavDropdown, Row, Col, Button } from 'react-bootstrap';
+import { Container, Navbar, Row, Col, Button } from 'react-bootstrap';
 import herovideo from "./images/hero.mp4"
 import part1 from "./images/part1.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,24 +10,21 @@ function App() {
   return (
     <div>
       <div className="hero">
-        <video src={herovideo} width="100%" height="100%" autoPlay loop muted style={{ objectFit: "cover", objectPosition: "top" }}>
-          Your browser does not support the video tag.
-       
+        <video src={herovideo} width="100%" height="100%" autoPlay loop muted style={{ objectFit: "cover", objectPosition: "top" }}>       
         </video>
         <div className="bgContent">
           <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand href="#home">מסיבט - בטים</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
-                  <Nav.Link href="#home"></Nav.Link>
-                  <Nav.Link href="#link"></Nav.Link>
-                </Nav>
-              </Navbar.Collapse>
-        <Button href="" variant="light" size="lg">   לחצו כאן</Button>
+              
+              
+        <Button href="" variant="light" size="lg">   למד עוד</Button>
             </Container>
           </Navbar>
+        <div className="text-center" style={{marginTop:"70vh"}}>
+        <p className="h2 text-light" style={{backgroundColor: "rgb(0, 0, 0, 0.7)", width:"max-content", display:"inline-block"}}>הכל יש בבוט שלנו</p>
+        <div><Button href="" variant="light" size="lg">   לחצו כאן</Button></div>
+        </div>
         </div>
       </div>
       <Container fluid className="py-5 bgWarning">
@@ -92,7 +89,9 @@ function App() {
                   ⭐️לערוץ המלצות שלנו⭐️<br />
                   ⭐️לערוץ צפיה ישירה במשחקים⭐️
                 </p>
-                <p>הכל יש בבוט שלנו לחצו כאן</p>
+                <p><a href="">לחצו כאן</a> הכל יש בבוט שלנו 
+
+                </p>
               </div>
             </div>
 
