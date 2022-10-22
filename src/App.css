@@ -32,3 +32,10 @@
   top:40px;
   animation: x 0.3s cubic-bezier(0,0,1,0) infinite;
 }
+
+@media (max-width: 991px) {
+
+marquee{
+  width: 20px!important;
+}
+}
