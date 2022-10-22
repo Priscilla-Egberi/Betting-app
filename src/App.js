@@ -1,8 +1,10 @@
 import './App.css';
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown, Row, Col, Button } from 'react-bootstrap';
 import herovideo from "./images/hero.mp4"
 import part1 from "./images/part1.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Icon } from '@iconify/react';
+
 
 function App() {
   return (
@@ -10,107 +12,102 @@ function App() {
       <div className="hero">
         <video src={herovideo} width="100%" height="100%" autoPlay loop muted style={{ objectFit: "cover", objectPosition: "top" }}>
           Your browser does not support the video tag.
+       
         </video>
         <div className="bgContent">
           <Navbar bg="dark" expand="lg" variant="dark">
             <Container>
-              <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+              <Navbar.Brand href="#home">מסיבט - בטים</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#link">Link</Nav.Link>
-                  <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                      Separated link
-                    </NavDropdown.Item>
-                  </NavDropdown>
+                  <Nav.Link href="#home"></Nav.Link>
+                  <Nav.Link href="#link"></Nav.Link>
                 </Nav>
               </Navbar.Collapse>
+        <Button href="" variant="light" size="lg">   לחצו כאן</Button>
             </Container>
           </Navbar>
         </div>
       </div>
       <Container fluid className="py-5 bgWarning">
-      <marquee className="text-center" width="60%" direction="right" height="100px">
-        <p className='h4 text-center mt-5'>
-          מסיבט - בטים / קזינו / רולטה / הימורי לייב
-        </p>
+        <marquee className="text-center" width="60%" direction="right" height="100px">
+          <p className='h4 text-center mt-5'>
+            מסיבט - בטים / קזינו / רולטה / הימורי לייב
+          </p>
         </marquee>
         <div className='d-flex flex-column flex-md-row m-0 p-0 mt-5 justify-content-center gap-5'>
           <div className='flex-column shadow col1'>
-            <div className="text-start card p-4 h-100 border-0" style={{ maxWidth: "21rem" }} >
-
-              <p className='text-small'>
-                הצטרפו לבוט גזע החדש  - בוט גזע </p>
-              <p>
-                כל דרכי התשלום במקום 1️⃣
-              </p>
-              <p>
-                ביטקויין 💰<br />
-                ביט 💰<br />
-                פייבוקס 💰<br />
-                העברת בנקאית 💰<br />
-                קוד משיכה 💰<br />
-                מזומן לשליח 🚖</p>
+            <div className="text-end card p-4 h-100 border-0" style={{ maxWidth: "21rem" }} >
+              <div className='d-flex flex-column gap-4'>
+                <p className='text-small'>
+                  הצטרפו לבוט גזע החדש  - בוט גזע </p>
+                <p>
+                  כל דרכי התשלום במקום 1️⃣
+                </p>
+                <p>
+                  ביטקויין 💰<br />
+                  ביט 💰<br />
+                  פייבוקס 💰<br />
+                  העברת בנקאית 💰<br />
+                  קוד משיכה 💰<br />
+                  מזומן לשליח 🚖</p>
+              </div>
             </div>
           </div>
           <div className='flex-column shadow col1'>
-            <div className="text-start card p-4 h-100 border-0" style={{ maxWidth: "21rem" }} >
-              <p>
-                בונוס הפקדה ראשוני עד 40%
-                לשחקנים וותיקים בונוס תמידי </p>
-              <p>
-                קזינו אונליין בשידורים חיים כבר כאן ⭐️⭐️</p>
-              <p>
-                ‏✅עד 40% בונוס בקזינו🔞ובספורט🏀</p>
-              <p>
-                ✅🏐כל מישחקי הספורט🥊🏒</p>
-              <p>
-                ✅‏🇮🇱שחקנים ישראלים🇮🇱</p>
-              <p>
-                ✅🧍🏻‍♀️סוכן  / סוכנת  צמוד/ה👩🏻🤝👨🏼</p>
-              <p>
-                ✅👑יחסים גבוהים
-              </p><p>
-                ✅☄️הפקדות ומשיכות מהירות💸
-              </p>
+            <div className="text-end card p-4 h-100 border-0" style={{ maxWidth: "21rem" }} >
+              <div className='d-flex flex-column gap-1'>
+                <p>
+                  בונוס הפקדה ראשוני עד 40%
+                  לשחקנים וותיקים בונוס תמידי </p>
+                <p>
+                  קזינו אונליין בשידורים חיים כבר כאן ⭐️⭐️</p>
+                <p>
+                  ‏✅עד 40% בונוס בקזינו🔞ובספורט🏀</p>
+                <p>
+                  ✅🏐כל מישחקי הספורט🥊🏒</p>
+                <p>
+                  ✅‏🇮🇱שחקנים ישראלים🇮🇱</p>
+                <p>
+                  ✅🧍🏻‍♀️סוכן  / סוכנת  צמוד/ה👩🏻🤝👨🏼</p>
+                <p>
+                  ✅👑יחסים גבוהים
+                </p><p>
+                  ✅☄️הפקדות ומשיכות מהירות💸
+                </p>
+              </div>
             </div>
           </div>
           <div className='flex-column shadow col1'>
-            <div className="text-start card p-4 h-100 border-0" style={{ maxWidth: "21rem" }}>
-              <p>
-                ❇️טלגרם: @messi10bet
-              </p><p>
-                📱ווצאפ: 054-8326815
-              </p>
-              <p>
-                ⭐️לערוץ ביקורות שלנו⭐️<br />
-                ⭐️לערוץ המלצות שלנו⭐️<br />
-                ⭐️לערוץ צפיה ישירה במשחקים⭐️
-              </p>
-              <p>הכל יש בבוט שלנו לחצו כאן</p>
-
+            <div className="text-end card p-4 h-100 border-0" style={{ maxWidth: "21rem" }}>
+              <div className='d-flex flex-column gap-3'>
+                <p>
+                  ❇️טלגרם: @messi10bet
+                </p><p>
+                  📱ווצאפ: 054-8326815
+                </p>
+                <p>
+                  ⭐️לערוץ ביקורות שלנו⭐️<br />
+                  ⭐️לערוץ המלצות שלנו⭐️<br />
+                  ⭐️לערוץ צפיה ישירה במשחקים⭐️
+                </p>
+                <p>הכל יש בבוט שלנו לחצו כאן</p>
+              </div>
             </div>
 
           </div>
         </div>
       </Container>
       <Container fluid className='bg-dark'>
-        <Row className="py-5 px-5 gap-md-0 justify-content-between">
-          <Col sm={12} xs={12} md={6} className="">
-            <div className="text-start h-100" style={{ maxWidth: "35rem" }}>
+        <Row xs={1} md={2} className="py-5 px-5 gap-2">
+          <Col sm={12} xs={12} md={6} className="items-center border-3 border-end  border-light">
+            <div className="text-start h-100 ms-auto" style={{ maxWidth: "35rem" }}>
               <img src={part1} width="100%" height="100%" alt="" />
             </div>
           </Col>
-          <Col sm={12} xs={12} md={6} className="mt-4 mt-md-0">
-            <div className="text-start text-white shadow-white bgCard card h-100 p-4 ms-md-auto" style={{ maxWidth: "25rem" }}>
+          <Col sm={12} xs={12} md={5} className="mt-4 mt-md-0 bor border-3 border-start border-light">
+            <div className="text-start text-white  bgCard card h-100 p-4 ms-auto" style={{ maxWidth: "25rem" }}>
               <p> ברוכים הבאים למסיבט ⚽️</p>
               <p>
                 המקום המושלם למהמרים ♦️</p>
@@ -131,9 +128,9 @@ function App() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className='bg-warn'>
-        <div className="d-flex flex-column flex-md-row gap-3 mt-5">
-          <div className="col-2">
+      <Container fluid className='bg-light py-5'>
+        <div className="row gap-2 mt-5 justify-content-center">
+          <div className="col-12 col-md-4">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 להלן התקנון של מסיבט :
@@ -153,7 +150,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-2">
+          <div className="col-12 col-md-4">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 ‌‎תשלומים יבוצעו באותה דרך הפקדה (ניתן לשינוי)
@@ -173,7 +170,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-2">
+          <div className="col-12 col-md-3">
             <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
               <p>
                 ‌‎1,000 ₪ בונוס 250 ( 5 הימורים חובה )
@@ -192,8 +189,10 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-2">
-            <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
+        </div>
+        <div className='row mt-3 mx-auto gap-2 justify-content-center'>
+          <div className="col-12 col-md-5">
+            <div className="text-end card p-4 h-100" style={{ maxWidth: "25rem" }}>
               <p>
 
                 ‌‎מינימום  הפקדה בכל האתרים והאפליקציות:
@@ -220,8 +219,8 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="col-2">
-            <div className="text-end card p-4 h-100" style={{ maxWidth: "21rem" }}>
+          <div className="col-12 col-md-5">
+            <div className="text-end card p-4 h-100" style={{ maxWidth: "25rem" }}>
               <p>
                 ‌‎▪️טניס עד 2000 נקודות רווח למשחק .
                 <br />
@@ -248,9 +247,14 @@ function App() {
               </p>
             </div>
           </div>
-        </div>
+          </div>
       </Container>
-      <div style={{ height: "1000px" }}></div>
+      <Container fluid className='bg-dark py-5 text-center' style={{ height: "18rem" }}>
+        <Button href="" variant="light" size="lg">לקבלת מידע נוסף, לחץ כאן</Button><br/>
+        <marquee width="60%" direction="down" height="100px">
+        <Icon className="mt-4 fa-spin" icon="emojione-v1:soccer-ball" width="100" />
+        </marquee>
+      </Container>
     </div>
   );
 }
