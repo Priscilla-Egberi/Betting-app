@@ -22,7 +22,7 @@ function App() {
             </Container>
           </Navbar>
         <div className="text-center" style={{marginTop:"70vh"}}>
-        <p className="h2 text-light" style={{backgroundColor: "rgb(0, 0, 0, 0.7)", width:"max-content", display:"inline-block"}}>הכל יש בבוט שלנו לחצו כאן</p>
+        <p className="h2 text-light" style={{backgroundColor: "rgb(0, 0, 0, 0.7)", width:"max-content", display:"inline-block"}}>הכל יש בבוט שלנו</p>
         <div><Button href="" variant="light" size="lg">   לחצו כאן</Button></div>
         </div>
         </div>
@@ -89,7 +89,9 @@ function App() {
                   ⭐️לערוץ המלצות שלנו⭐️<br />
                   ⭐️לערוץ צפיה ישירה במשחקים⭐️
                 </p>
-                <p>הכל יש בבוט שלנו לחצו כאן</p>
+                <p><a href="">לחצו כאן</a> הכל יש בבוט שלנו 
+
+                </p>
               </div>
             </div>
 
